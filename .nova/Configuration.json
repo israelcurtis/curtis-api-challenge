@@ -1,5 +1,0 @@
-{
-	"index.enabled": true,
-	"index.ignored_file_patterns": [ "node_modules" ],
-	"VineCode.Sass.workspaceEnable": false
-}
