@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "curtis/api-challenge",
+	"version": "1.0.0",
+	"title": "Israel Curtis API Challenge",
+	"category": "embed",
+	"icon": "universal-access",
+	"description": "Awesome Motive Plugin Challenge Block",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "curtis-api",
+	"editorScript": "file:./index.js",
+	"script": "file:./script.js",
+	"viewScript": "file:./view.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./view.php",
+	"attributes": {
+		"col1": {
+			"type": "boolean",
+			"default": true
+		},
+		"col2": {
+			"type": "boolean",
+			"default": true
+		},
+		"col3": {
+			"type": "boolean",
+			"default": true
+		},
+		"col4": {
+			"type": "boolean",
+			"default": true
+		},
+		"col5": {
+			"type": "boolean",
+			"default": true
+		}
+	}
+}
